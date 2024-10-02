@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 12px;
+}
+
+/* CONTAINER LAYOUT */
+.container {
+    width: 375px;
+    margin: 0 auto;
+}
+
+/* HEADER SECTION */
+header {
+    height: 67px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.logo-img {
+    width: 127px;
+    height: 33.02px;
+}
+
+.profile-img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+/* AUTHOR SECTION */
+.author {
+    height: 34px;
+    display: flex;
+    align-items: center;
+    padding: 10px 17px 11px 10px;
+}
+
+.author-info {
+    /* height: 25px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.author-img {
+    margin-right: 7px;
+}
+
+.author-name {
+    margin-bottom: 0px;
+}
+
+
+/* MAIN PHOTO SECTION */
+.hero {
+    height: 375px;
+}
+
+.main-img {
+    width: 375px;
+}
+
+
+/* FOOTER SECTION */
+footer {
+    box-sizing: border-box;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 21px 19px 16px 10px;
+    box-shadow: 0 0 1px grey;
+}
+
+.icons {
+    width: 104.34px;
+    /* height: 22.13px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon {
+    width: 23.3px;
+    height: 22.13px;
+}
+
+.icon:hover, .icon:focus {
+    cursor: pointer;
+    background: lightblue;
+    border-radius: 35%;
+    width: 25px;
+}
+
+
+/* CUSTOM STYLE */
+.bold {
+    font-weight: bold;
+    font-size: 13px;
+}
